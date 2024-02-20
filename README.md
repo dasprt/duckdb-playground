@@ -1,6 +1,6 @@
 # DuckDB Playground
 
-This docker container provides a Jupyter server with a Python kernel and the DuckDB database. The application reads Parquet data from the `data` directory and displays the data in a table. You can use jupyter notebooks to view data and test duckdb queries.
+This docker container creates a Jupyter server with DuckDB and pyarrow library. You can use jupyter notebooks to load data in arrow and parqut format and run duckdb queries.
 
 ## Building and running the container
 
